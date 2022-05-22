@@ -71,3 +71,43 @@ main li img {
 .actions a:hover {
   background-color: rgb(235, 253, 255);
 }
+
+@media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px)
+  {
+    main ul {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+    }
+  }
+
+@media only screen
+  and (max-device-width: 767px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  #page-logo {
+    font-size: 1rem;
+  }
+
+  main li {
+    flex-direction: column;
+  }
+  
+  main ul {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  main li img {
+    width: 100%;
+  }
+}
