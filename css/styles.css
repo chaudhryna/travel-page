@@ -1,6 +1,6 @@
 #hero {
   height: 60em;
-  background-image: url('/images/places/dar-al-hajar-rock-palace-yemen.jpeg');
+  background-image: url('../images/places/dar-al-hajar-rock-palace-yemen.jpeg');
   background-position: center;
   background-size: cover;
 }
